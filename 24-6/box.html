@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="./symbol.png">
+    <style>
+        div.ele{
+            width: 500px;
+            height: 80px;
+            color: blue;
+            border: 2px solid black;
+            padding: 2px;
+            margin: 20px;
+            transition-duration: 0.5s;
+        }
+        div.padding{
+            width: 700px;
+            height: 220px;
+            color: green;
+            border: 2px dashed black;
+            padding: 4px;
+            margin: 20px;
+            transition-duration: 0.5s;
+        }
+        div.border{
+            width: 900px;
+            height: 360px;
+            color: burlywood;
+            border: 2px solid black;
+            padding: 6px;
+            margin: 20px;
+            transition-duration: 0.5s;
+        }
+        div.margin{
+            width: 1100px;
+            height: 500px;
+            color: brown;
+            border: 2px dashed black;
+            padding: 8px;
+            margin: 100px;
+            transition-duration: 0.5s;
+        }
+        div.ele:hover{
+            color: white;
+            background-color: blue;
+            box-shadow: 10px 10px 10px black;
+        }
+        div.padding:hover{
+            color: white;
+            background-color: lightgreen;
+            box-shadow: 10px 10px 10px black;
+        }
+        div.border:hover{
+            color: white;
+            background-color: burlywood;
+            box-shadow: 10px 10px 10px black;
+        }
+        div.margin:hover{
+            color: white;
+            background-color: rgb(194, 139, 62);
+            box-shadow: 10px 10px 10px black;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div class="margin"><h1>Margin</h1>
+            <div class="border"><h1>Border</h1>
+                <div class="padding"><h1>Padding</h1>
+                    <div class="ele">
+                        <h1>Hello</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </center>
+</body>
+</html>
